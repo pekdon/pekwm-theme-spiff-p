@@ -4,7 +4,7 @@
 # Port of e16 theme by Garrett LeSage (http://linuxart.com/)
 # 
 
-$FONT_TITLE = "DejaVu Sans-8:bold#XFT"
+$FONT_TITLE = "DejaVu Sans-8#XFT"
 $FONT = "DejaVu Sans-8#XFT"
 $FONT_CMD = "DejaVu Sans Mono-8#XFT"
 
@@ -43,7 +43,7 @@ Define = "Border" {
 
 Define = "Title" {
   Height = "12"
-  Pad = "1 1 2 0"
+  Pad = "0 1 2 0"
   
   Focused = "Image win-focus.xpm#Scaled"
   Unfocused = "Image win-unfocus.xpm#Scaled"
