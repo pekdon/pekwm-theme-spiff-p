@@ -253,3 +253,19 @@ WorkspaceIndicator {
   EdgePadding = "1"
   WorkspacePadding = "1"
 }
+
+Panel {
+	Background = "SolidRaised #c5c6c5 #5a797b #5a797b 1 0"
+	Focused {
+		Font = "$FONT_TITLE#Center"
+		Color = "#000000"
+	}
+	Unfocused {
+		Font = "$FONT_TITLE#Center"
+		Color = "#222222"
+	}
+	Iconified {
+		Font = "$FONT_TITLE#Center"
+		Color = "#444444"
+	}
+}
